@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h1{
+    margin-top: 3.9rem;
+    font-size: 4.2rem;
+}
+
+.grid{
+    padding: 0 6rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    margin: 6rem auto;
+}
+
+.grid_card{
+    padding: 2rem 4rem;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #fff;
+}
+
+.grid_card span {
+    display: inline-block;
+    transition: transform 200ms;
+}
+
+.grid_card h2{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.grid_card p{
+    margin: 0;
+}
+
+.grid_card p:last-child{
+    margin-bottom: 3.2rem;
+}
+
+.grid_card .last_para{
+    margin-bottom: 3.2rem;
+}
+
+.grid_card i{
+    font-size: 4.2rem;
+    color: #e50914;
+}
+
+
+.h1{
+  padding-top: 20px;
+  color: white;
+  font-family: sans-serif;font-weight: bolder;
+}
+
+
+.cardForm {
+    width:calc(50%);
+   display: block;margin: 0 auto;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+  }
+  
+  .formTitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background: #e50914;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .formBody {
+    padding: 10px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .inputText {
+    appearance: none;
+    width: 100%;
+    margin: 0 15px;
+    height: 35px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #e8ebed;
+    color: #576366;
+    font-size: 14px;
+  }
+  
+  .rule {
+    height: 2px;
+    background: #e8ebed;
+    margin: 0px 35px;
+  }
+  
+  .formFooter {
+    margin: 0 25px 15px 25px;
+    padding: 15px 10px;
+  }
+  
+  .formFooter .a {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 65px;
+    font-weight: bolder;
+    color: white;
+    background: #e50914;
+    font-family: sans-serif;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
